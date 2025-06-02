@@ -5,7 +5,7 @@
   font-family: Roboto, serif;
 }
 
-header .links {
+nav {
   display: flex;
   gap: 1rem;
 }
@@ -13,13 +13,19 @@ header .links {
 header {
   display: flex;
   justify-content: space-between;
-  padding: 1rem;
+  padding: 2rem;
   margin: 0rem 9rem;
+  /* justify-self: flex-end; */
 }
+
 .hero p {
   font-size: 18px;
   color: #e5e7eb;
 }
+
+/* header .logo {
+  border-radius: 1rem;
+} */
 
 header .logo {
   font-size: 24px;
@@ -37,10 +43,16 @@ header .logo {
 }
 
 .main-card {
-  padding: 5rem;
+  padding: 2rem 5rem 5rem 5rem;
   display: flex;
-  margin: 0 5rem;
+  margin: 0 6rem;
   gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.right-box img {
+  max-width: 100%;
+  height: auto;
 }
 
 .random-info {
@@ -61,7 +73,7 @@ header .logo {
   flex-direction: column;
 }
 
-.sign-up {
+.call-to-action {
   padding: 3rem;
   display: flex;
   justify-content: center;
@@ -95,7 +107,11 @@ a {
   color: #f9faf8;
 }
 
-button {
+a:hover {
+  color: gainsboro;
+}
+
+.button-style {
   background-color: #3882f6;
   border-radius: 0.25rem;
   padding: 0.3rem 1.5rem;
@@ -106,7 +122,7 @@ button {
   margin-top: 0.5rem;
 }
 
-.sign-up button {
+.sign-up {
   border: solid 2px #e5e7eb;
 }
 
@@ -121,11 +137,13 @@ button {
   justify-content: center;
 }
 
-.random-images .image {
+.right-box img {
+  border-radius: 1rem;
+}
+
+.random-images img {
   border: solid 2px #3882f6;
   border-radius: 0.5rem;
-  height: 150px;
-  width: 150px;
 }
 
 .random-images .card {
