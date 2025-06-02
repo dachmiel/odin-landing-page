@@ -4,37 +4,87 @@
   <head>
     <meta charset="UTF-8" />
     <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <p>Header Logo</p>
-    <p>header link one</p>
-    <p>header link two</p>
-    <p>header link three</p>
-    <h1>This website is awesome</h1>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos ex suscipit
-      sapiente, ipsam optio amet eaque nesciunt animi distinctio velit enim
-      molestias nisi ea aliquid vero laborum a, aperiam cum.
-    </p>
-    <p>Sign up</p>
-    <img />
-    <p>This is a placeholder for an image</p>
-    <h2>Some random information.</h2>
-    <img />
-    <p>Image 1 subtext</p>
-    <img />
-    <p>Image 2 subtext</p>
-    <img />
-    <p>Image 3 subtext</p>
-    <img />
-    <p>Image 4 subtext</p>
-    <p>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias, nulla
-      dolores tempora tempore voluptatem iusto facere accusamus sequi. Deleniti
-      beatae ab quisquam earum quas nihil itaque, similique tempora error
-      aspernatur?
-      <strong>-Thor</strong>
-    </p>
+    <div class="hero">
+      <header>
+        <p class="logo"><strong>Header Logo</strong></p>
+        <div class="links">
+          <p class="link">header link one</p>
+          <p class="link">header link two</p>
+          <p class="link">header link three</p>
+        </div>
+      </header>
+
+      <div class="main-card">
+        <div class="left-box">
+          <h1>This website is awesome</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos ex
+            suscipit sapiente, ipsam optio amet eaque nesciunt animi distinctio
+            velit enim molestias nisi ea aliquid vero laborum a, aperiam cum.
+          </p>
+          <button>
+            <a href="#" target="_blank" rel="noreferrer noopener"
+              ><strong>Sign up</strong></a
+            >
+          </button>
+        </div>
+        <div class="right-box">
+          <p>This is a placeholder for an image</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="random-info">
+      <h2>Some random information.</h2>
+      <div class="random-images">
+        <div class="card">
+          <div class="image"></div>
+          <p>Image 1 subtext</p>
+        </div>
+        <div class="card">
+          <div class="image"></div>
+          <p>Image 2 subtext</p>
+        </div>
+        <div class="card">
+          <div class="image"></div>
+          <p>Image 3 subtext</p>
+        </div>
+        <div class="card">
+          <div class="image"></div>
+          <p>Image 4 subtext</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="quote">
+      <blockquote>
+        <em
+          >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias,
+          nulla dolores tempora tempore voluptatem iusto facere accusamus sequi.
+          Deleniti beatae ab quisquam earum quas nihil itaque, similique tempora
+          error aspernatur?</em
+        >
+        <br />
+      </blockquote>
+
+      <span><strong>-Thor, God of Thunder</strong></span>
+    </div>
+
+    <div class="sign-up">
+      <div>
+        <p><strong>Call to action! It's time!</strong></p>
+        <p>Sign up for our product by clicking that button right over there!</p>
+      </div>
+      <button>
+        <a href="#" target="_blank" rel="noreferrer noopener"
+          ><strong>Sign up</strong></a
+        >
+      </button>
+    </div>
+
     <footer>Copyright</footer>
   </body>
 </html>
